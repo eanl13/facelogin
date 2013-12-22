@@ -23,7 +23,7 @@ if(@$_SESSION['fboturum']=="tamam"){
      
     // api metodundan üye bilgilerini çekelim 
    $yeniuye = $facebook->api("/{$fbID}",'GET'); 
-    var_dump($yeniuye);
+
    // üye bilgileri $yeniuye dizisinde tutulacak. 
 
    echo $yeniuye['age_range'];
